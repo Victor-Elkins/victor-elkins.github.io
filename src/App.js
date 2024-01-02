@@ -52,26 +52,28 @@ const WorkExperience = () => (
     <div>
       <h3>Dycom Industries - Software Engineering Intern</h3>
       <p>June 2023 – August 2023</p>
-      <ul>
-        <li>•Collaborated with a team of interns to develop a large-scale decision tree linter using Python, integrating it into the CI/CD pipeline in GitLab, the decision tree service frontend using Angular, and a VScode extension using Java.</li>
-        <li>•Led and managed a team of software development interns, utilizing GitLab for version control, collaboration, and CI/CD integration, while effectively overseeing appointment management with experienced developers, conducting code reviews, and leveraging strong people skills to ensure a productive and collaborative team environment.</li>
-        <li>•Contributed to the overall improvement of decision tree quality, saving Dycom Industries potentially hundreds of hours of development time and valuable resources.</li>
-      </ul>
     </div>
 
     <div>
       <h3>Vertical Automation & Information Technology - Software Engineering Intern</h3>
       <p>Feb 2023 – June 2023</p>
-      <ul>
-        <li>•Collaborated with a team of developers on the design and implementation of internal tools including dotnet, jQuery, Bootstrap, and Azure DevOps.</li>
-        <li>•Managed the coordination and task assignments among the intern team, ensuring efficient collaboration and timely completion of project milestones.</li>
-        <li>•Integrated a backend image modeling system with a UI for use in an industrial setting, ensuring seamless performance saving companies over 40 hours a week.</li>
-      </ul>
     </div>
 
     <hr />
   </section>
 );
+const Projects = () => (
+  <section id = "Project-Section" className = "container-fluid">
+    <h2>Projects</h2>
+    <div>
+      <h3>Web Development Committee – Cougar CS Revamp</h3><br></br>
+      <h3>Student Planner API</h3><br></br>
+      <h3>Book Recommendation Machine</h3><br></br>
+      <h3>Multithreaded Web Server</h3><br></br>
+      <h3>Medical Bill Uploading Service</h3><br></br>
+    </div>
+  </section>
+)
 
 
 
